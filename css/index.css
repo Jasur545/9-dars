@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  color: inherit;
+}
+button {
+  background-color: #d23166;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+span{
+    color:#d23166;
+}
+.container{
+    margin: 0 auto;
+    width: 1300px;
+}
+header .control{
+    position: fixed;
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2CEDA;
+    padding:20px 120px ;
+    
+}
+.header-ul{
+    display: flex;
+    gap: 35px;
+    padding-top: 30px;
+}
+header button{
+    width: 170px;
+    height: 60px;
+    margin-top: 15px;
+}
+main section .control{
+    background-color: #F2CEDA;
+    display: flex;
+    padding-top: 180px;
+    padding-left: 120px;
+    padding-right: 120px;
+    /* padding: 0px; */
+
+}
+main section .control .left-box{
+    /* width: 600px; */
+    padding-top: 50px;
+}
+main section .control .left-box h1{
+    font-size: 50px;
+    padding: 10px 0 25px;
+    /* font-family:  url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap'); */
+}
+main section .control .right-box img{
+    width: 100%;
+
+}
+main section .control .left-box button{
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+}
+main section .input-control{
+    text-align: center;
+    padding-top: 100px;
+    padding: 100px;
+    /* height: 400px; */
+}
+main section .input-control h2{
+    width: 450px;
+    font-size: 40px;
+    margin-left: 320px;
+    padding-bottom: 30px;
+}
+main section .input-control input{
+    width: 250px;
+    height: 60px;
+    border-radius: 5px;
+    /* border: 0.5px 0.5px #d23166; */
+    border: 1px solid #FFA3A3;
+    padding-left: 20px;
+    margin: 15px 15px;
+
+}
+main section .input-control .input input{
+    width: 537px;
+    height: 60px;
+    margin: 0 auto;
+}
+main section .input-control .input button{
+    position: absolute;
+    right: 406px;
+    width: 100px;
+    height: 60px;
+}
+footer .control-footer{
+    padding: 40px 120px;
+    color: white;
+    background-color: black;
+}
+footer .control-footer .footer-text{
+    display: flex;
+}
+footer .control-footer .footer-text .icon{
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+}
+footer .control-footer .footer-text .text-one{
+    width: 200px;
+}
+footer .control-footer .footer-text .text-one h3{
+    padding-top: 20px;
+}
+footer .control-footer .footer-text .text-two{
+    margin-left: 30px;
+    height: 230px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 15px;
+    padding-right: 80px;
+}
+footer .control-footer .footer-text .text-three{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-between;
+    padding-top:40px;
+    padding-right: 100px;
+}
+footer .control-footer .footer-text .text-foo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    margin-top: 60px;
+}
+footer .control-footer .footer-text .text-foo button{
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    right: 170px;
+}
+footer .control-footer .footer-text .text-foo input{
+    width: 250px;
+    height: 60px;
+    border: 2px solid #d23166;
+    border-radius: 7px;
+    background-color: black;
+    padding-left: 20px;
+}
+footer .control-footer .footer-text .text-foo .foo-icon{
+    display: flex;
+    gap: 20px;
+}
